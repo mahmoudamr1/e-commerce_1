@@ -10,17 +10,17 @@ import Slider_2 from '../components/Slider-2';
 
 import Slider_1 from '../components/Slider';
 
-import React, { Suspense } from 'react';
+
 import Loading from '../components/loading';
 
 const Home = ( {products,products_2,}) => (
   <>
-    <Suspense fallback={ <Loading /> }>
+
     <Slider_2 />
     <Slider_1 />
     <Section_1 product={ products} />
     <Section_2 product={ products_2 } />
-    </Suspense>
+
   </>
 );
 

@@ -1,5 +1,5 @@
 
-import { useState, useEffect, Suspense } from 'react';
+import { useState, useEffect,  } from 'react';
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-icons/ai';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

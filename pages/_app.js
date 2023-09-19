@@ -1,4 +1,4 @@
-import{ Suspense } from 'react';
+
 import { Toaster } from 'react-hot-toast';
 
 import { Layout } from '../components';
@@ -11,7 +11,7 @@ import Loading from '../components/loading';
 
 function MyApp( { Component, pageProps } ) {
   return (
-    <Suspense fallback={ <Loading /> }>
+ 
     <StateContext>
       <Layout>
         <Toaster />
@@ -28,7 +28,7 @@ function MyApp( { Component, pageProps } ) {
 
     </StateContext>
 
-    </Suspense>
+
   )
 }
 

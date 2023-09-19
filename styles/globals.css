@@ -760,9 +760,7 @@ ul {
     height: 50px;
   }
 
-  /* .header {
-    height: 50px;
-  } */
+ 
 
 }
 
@@ -818,7 +816,7 @@ ul {
   .header .main-nav>li>a {
     padding: 10px;
     font-size: 14px;
-    /* height: 40px; */
+  
   }
 }
 
@@ -976,7 +974,7 @@ z-index: -200;
   justify-content: space-between;
   gap: 45px;
   align-items: center;
-  /* margin: 0px 26px; */
+
 
 }
 
@@ -1814,9 +1812,7 @@ ul {
   transform: scale(1.1);
 }
 
-#carosel_2 .slick-slide img{
-  /* width: 100%; */
-}
+
 #carosel_2 .slick-slide {
   outline: none !important;
   border: none !important;
@@ -2119,9 +2115,7 @@ body .all-divs {
 }
 
 @media (max-width:783px) {
-  /* .sign-in-navbar{
-    display: none;
-  } */
+
 
   .features {
     padding-top: 0;
@@ -2594,8 +2588,7 @@ input[type="checkbox"] {
 @media (max-width:967px) {
   #header{
     display: none;
-    /* opacity: 0;
-    z-index: -10; */
+
   }
   .header .main-nav {
     display: flex;
@@ -2604,7 +2597,6 @@ input[type="checkbox"] {
   .header{
     width: 244px;
     z-index: 8;
-    /* position: fixed; */
     position: absolute;
   }
 
@@ -2649,50 +2641,47 @@ svg.list-icon-nav {
 .close_list_button {
   display: block !important;
 }
-/* تعريف أنميشن الانزلاق من الأعلى */
 @keyframes slideInFrombottom {
   0% {
     transform: translateY(100px);
-    /* ابدأ من الأعلى (-300px) */
     opacity: 0;
-    /* ابدأ بالشفافية 0 */
   }
 
   100% {
     transform: translateY(0);
-    /* انزل إلى الأعلى (0) */
+
     opacity: 1;
-    /* انتهي بالشفافية 1 */
+   
   }
 }
 
-/* تطبيق الأنميشن على العنصر */
+
 .mega-menu, #popup {
   animation: slideInFrombottom .7s ease-in-out;
-  /* اسم الأنميشن، المدة، والتأثير */
+ 
 }
 
 
 @keyframes slideInFromTop {
   0% {
     transform: translateX(-300px);
-    /* ابدأ من الأعلى (-300px) */
+
     opacity: 0;
-    /* ابدأ بالشفافية 0 */
+ 
   }
 
   100% {
     transform: translateX(0);
-    /* انزل إلى الأعلى (0) */
+
     opacity: 1;
-    /* انتهي بالشفافية 1 */
+
   }
 }
 
-/* تطبيق الأنميشن على العنصر */
+
 .header.slide-in {
   animation: slideInFromTop 1s ease-in-out;
-  /* اسم الأنميشن، المدة، والتأثير */
+
 }
 }
 
@@ -2725,7 +2714,7 @@ width: -moz-fit-content;
   height: fit-content;
   cursor: pointer;
   position: absolute;
-  /* display: block; */
+
   right: -12px;
   top: -13px;
   padding: 4px;

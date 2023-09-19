@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+
 import Head from 'next/head';
 import Navbar from './Navbar';
 import Footer_2 from './Footer_2';
@@ -19,9 +19,9 @@ const Layout = ( { children } ) => {
         </header>
 
           <main className="main-container">
-            <Suspense fallback={<Loading/>}>
+          
             { children }
-            </Suspense>
+        
         </main>
 
         <footer>
