@@ -106,7 +106,7 @@ a {
   justify-content: space-between;
   width: 350px;
   color: #324d67;
-
+align-items: center;
 }
 
 .item-desc .bottom {
