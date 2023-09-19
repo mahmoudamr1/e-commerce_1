@@ -2641,26 +2641,6 @@ svg.list-icon-nav {
 .close_list_button {
   display: block !important;
 }
-@keyframes slideInFrombottom {
-  0% {
-    transform: translateY(100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0);
-
-    opacity: 1;
-   
-  }
-}
-
-
-.mega-menu, #popup {
-  animation: slideInFrombottom .7s ease-in-out;
- 
-}
-
 
 @keyframes slideInFromTop {
   0% {
@@ -2783,3 +2763,24 @@ background-color: black !important;
   align-items: center;
   justify-content: center;
 }
+
+@keyframes slideInFrombottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+
+    opacity: 1;
+   
+  }
+}
+
+
+.mega-menu, #popup {
+  animation: slideInFrombottom .7s ease-in-out;
+ 
+}
+
