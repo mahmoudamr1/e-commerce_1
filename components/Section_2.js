@@ -109,7 +109,7 @@ const Section_2 = ( { products, product } ) => {
                   
                     </div>  </Link>
                 <h2>{ item.price } EGB</h2>
-                <Link href={ `/product/${item.slug.current}` }>
+                <Link href={ `/technology-product/${item.slug.current}` }>
                     <p>{ item.details }</p>
             </Link>
       
